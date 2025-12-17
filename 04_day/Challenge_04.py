@@ -6,4 +6,4 @@ print(f"Before Squaring the even numbers: {numbers}")
 
 numbers = [x**2 for x in numbers if x % 2 == 0]
 
-print(f"After Squaring the even numbers:{numbers}")
+print(f"After Squaring the even numbers:{numbers}")    # Output: [4, 16, 36, 64, 100]
